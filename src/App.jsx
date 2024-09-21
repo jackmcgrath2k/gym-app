@@ -1,10 +1,19 @@
 import { useState } from 'react'
+import Hero from './components/Hero'
+import Generator from './components/Generator'
+import Workout from './components/Workout'
+
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
-      <p className="text-red-600">hello</p>
+      <main className="min-h-screen flex flex-col bg-gradient-to-r
+       from-zinc-700 to-zinc-950 text-white text-sm sm:text-base">
+      <Hero />
+      <Generator />
+      <Workout />
+      </main>
   )
 }
 

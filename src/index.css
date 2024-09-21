@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  font-family: "Urbanist", sans-serif;
+}
+
+span {
+  font-family: inherit;
+  font-weight: inherit;
+  
+}
