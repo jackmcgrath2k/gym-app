@@ -9,7 +9,7 @@ function App() {
 
   return (
       <main className="min-h-screen flex flex-col bg-gradient-to-r
-       from-zinc-700 to-zinc-950 text-white text-sm sm:text-base">
+       from-stone-800 to-zinc-950 text-white text-sm sm:text-base">
       <Hero />
       <Generator />
       <Workout />
