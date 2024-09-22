@@ -1,6 +1,5 @@
 import React from 'react'
 import SectionWrap from './SectionWrap'
-import Slider from './Slider'
 import { AGENTS } from '../constants/stratdata'
 
 function Header(props) {
@@ -16,14 +15,19 @@ function Header(props) {
   )
 }
 
-export default function Generator() {
+export default function GeneratorBoard() {
   return (
     
-    <div className="py-20">
-      <SectionWrap header={"LETS TALK STRATEGY"} title={"MAP SELECT"}>
-        <Slider></Slider>
+      <SectionWrap title={"THE PLAYING FIELD"}>
+        
+        {Object.keys(AGENTS).map((type, typeIndex) =>{
+          return (
+            <button key={typeIndex}>
+              <p>{type}</p>
+            </button>
+          )
+        })}
       </SectionWrap>
-      </div>
     
   )
 }
