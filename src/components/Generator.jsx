@@ -1,5 +1,6 @@
 import React from 'react'
 import SectionWrap from './SectionWrap'
+import Slider from './Slider'
 
 function Header(props) {
   const {index, title, description} = props
@@ -17,8 +18,8 @@ function Header(props) {
 export default function Generator() {
   return (
     
-      <SectionWrap header={"VALOSTRAT"} title={['It\'s ', 'Time']}>
-       adsadfadf
+      <SectionWrap header={"STRATEGY"} title={"MAP SELECT"}>
+        <Slider></Slider>
       </SectionWrap>
     
   )

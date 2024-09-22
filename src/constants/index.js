@@ -14,13 +14,13 @@ import Map_Fracture from "../assets/Map_Fracture.png";
 export const Maps = [
     {
         title: "SUNSET",
-        desc: "Traditional 3 lane map.",
+        desc: "Home to the Kingdom West facility.",
         coords: "34°0202.0 N 118°1216.0 W",
         backgroundImage: Map_Sunset,
     },
     {
         title: "FRACTURE",
-        desc: "Allows attackers to pinch sites from both ends.",
+        desc: "Abandoned development site for radianite particle study.",
         coords: "35°4818 N 106°0819 W",
         backgroundImage: Map_Fracture,
     },
