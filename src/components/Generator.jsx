@@ -17,7 +17,7 @@ function Header(props) {
 export default function Generator() {
   return (
     
-      <SectionWrap header={"generate workout"} title={['It\'s ', 'Time']}>
+      <SectionWrap header={"VALOSTRAT"} title={['It\'s ', 'Time']}>
        adsadfadf
       </SectionWrap>
     
