@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import VolumeUpIcon from '@mui/icons-material/VolumeUp';
 import VolumeOffIcon from '@mui/icons-material/VolumeOff';
-import song from '../assets/song.wav';
+import song from '../assets/music/song.wav';
 import { Link } from 'react-router-dom';
 
 export default function Hero() {
