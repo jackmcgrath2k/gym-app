@@ -38,8 +38,8 @@ const MapInfo = () => {
                 
                 <p className='text-left font-light text-xl'>{mapInfo.loreInfo}</p> 
                 <div className='mt-5'>
-                    <h1 className='uppercase font-custom font-black text-7xl text-red-800'>PLAY RATE: <span className='uppercase font-custom font-black text-7xl text-white'>{mapInfo.playRate}</span></h1>
-                    <h1 className='uppercase font-custom font-black text-7xl my-2 text-red-800'>FAVOURS: <span className='uppercase font-custom font-black text-7xl text-white'>{mapInfo.sideFav}</span></h1>
+                    <h1 className='uppercase font-custom font-black text-7xl text-red-700'>PLAY RATE: <span className='uppercase font-custom font-black text-7xl text-white'>{mapInfo.playRate}</span></h1>
+                    <h1 className='uppercase font-custom font-black text-7xl my-2 text-red-700'>FAVOURS: <span className='uppercase font-custom font-black text-7xl text-white'>{mapInfo.sideFav}</span></h1>
                 </div>
             </div>
             

@@ -10,7 +10,7 @@ export default {
         custom: ['Urbanist', 'sans-serif'],
       },
       fontSize: {
-        '10xl': '12rem',
+        '10xl': '355px',
       },
     },
   },

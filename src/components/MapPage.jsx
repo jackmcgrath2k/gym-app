@@ -21,7 +21,7 @@ return (
     <div className="absolute inset-0 bg-cover bg-center brightness-125 blur-lg z-0 " style={{ backgroundImage: `url(${mapPage.backgroundImage})` }}/>
     <div className='z-10'>
     {/* VALOSTRAT HEADER */}
-    <div className='fixed top-0 left-0 right-0 z-10 p-5'>
+    <div className='fixed top-0 left-0 right-0 z-20 p-5'>
       <div className="w-full container mx-auto mb-5"> 
 
         <div className="w-full flex items-center justify">
@@ -36,29 +36,31 @@ return (
           </div>
         </div>
       </div>
-      </div>
+      
 
       {/* MAP TITLE */}
-      <div className='relative justify-center py-20'>
-      <h1 className="uppercase font-custom font-black text-10xl text-red-700 m-20">{mapPage.title}</h1>
       </div>
-      
       <div>
-      <SectionWrap header={"SELECT YOUR AGENT"}>
-        
-      </SectionWrap>
-      </div>
-
-    </div>
-        <div className='grid grid-cols-5 gap-4'>
+      <SectionWrap header={"AGENT SELECT"}>
+        <p className='text-6xl font-black text-red-700'>SELECT YOUR AGENT</p>
+      <div className='grid grid-cols-5 gap-4'>
         {agentInfo.map((image) => (
           <div className='relative group' key={image.img}>
-            <div className='h-[100px] w-[100px] m-1 object-cover border-4 border-stone-500 border-opacity-40 hover:bg-gradient-to-br from-red-600 to-red-900 hover:border-red-800'>
+            <div className='h-[100px] w-[100px] object-cover border-4 border-yellow-300 border-opacity-30 hover:bg-gradient-to-br from-red-600 to-red-900 hover:border-red-800'>
             <img src={image.img} alt={image.name} className="object-cover hover:scale-110" />
             </div>
           </div>
         ))}
       </div>
+      </SectionWrap>
+      </div>
+      
+
+    </div>
+    <div className='absolute justify-center py-20'>
+      <h1 className="uppercase font-custom font-black text-10xl text-white m-20 opacity-10">{mapPage.title}</h1>
+      </div>
+
     </div>
 );
 };
