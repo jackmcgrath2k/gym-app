@@ -42,16 +42,20 @@ return (
       </div>
       <div>
       <SectionWrap header={"AGENT SELECT"}>
-        <p className='text-6xl font-black text-red-700'>SELECT YOUR AGENT</p>
+        <p className='text-6xl font-black text-red-700 pb-3'>SELECT YOUR AGENT</p>
       <div className='grid grid-cols-5 gap-4'>
         {agentInfo.map((image) => (
           <div className='relative group' key={image.img}>
-            <div className='h-[100px] w-[100px] object-cover border-4 border-yellow-300 border-opacity-30 hover:bg-gradient-to-br from-red-600 to-red-900 hover:border-red-800'>
-            <img src={image.img} alt={image.name} className="object-cover hover:scale-110" />
+            <div className='h-[100px] w-[100px] object-cover border-4 border-yellow-300 border-opacity-30 hover:bg-gradient-to-br from-red-600 to-red-900 hover:border-red-800 cursor-pointer '>
+            <Link to={`/select/${mapPage.title}/${image.a_name}`}>
+            <img src={image.img} alt={image.a_name} className="object-cover hover:scale-110 transition duration-10 delay-50 hover:delay-10" />
+            </Link>
             </div>
           </div>
+          
         ))}
       </div>
+      
       </SectionWrap>
       </div>
       

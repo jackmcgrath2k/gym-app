@@ -5,6 +5,7 @@ import {Route, Routes} from 'react-router-dom'
 import MapPage, { mapDetailsLoader } from './components/MapPage'
 import MapInfo, { mapInfoLoader } from './components/MapInfo'
 import NewPlayers from './components/NewPlayers'
+import Strategy from './components/Strategy'
 
 function App() {
   
@@ -18,6 +19,7 @@ function App() {
         <Route path="/start/select/:title" element={<MapPage />} loader={mapDetailsLoader}/>
         <Route path="/start/info/:lore" element={<MapInfo />} loader={mapInfoLoader}/>
         <Route path="/newplayer" element={<NewPlayers />} />
+        <Route path="/select/:title/:a_name" element={<Strategy />} />
         
         
       </Routes>

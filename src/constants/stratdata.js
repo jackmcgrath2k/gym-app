@@ -24,6 +24,7 @@ import A_Sova from "../assets/imgs/agents/A_Sova.png";
 import A_Viper from "../assets/imgs/agents/A_Viper.png";
 import A_VYSE from "../assets/imgs/agents/A_VYSE.png";
 import A_Yoru from "../assets/imgs/agents/A_Yoru.png";
+import A_Astra_card from "../assets/imgs/agents/A_Astra_card.png";
 
 
 
@@ -31,6 +32,7 @@ export const agentInfo = [
     {
         a_name: "Astra",
         img: A_Astra,
+        card: A_Astra_card,
 
     },
     {
