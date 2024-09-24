@@ -8,7 +8,10 @@ export default {
     extend: {
       fontFamily: {
         custom: ['Urbanist', 'sans-serif'],
-      }
+      },
+      fontSize: {
+        '10xl': '12rem',
+      },
     },
   },
   plugins: [],

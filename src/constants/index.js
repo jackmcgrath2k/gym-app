@@ -1,3 +1,4 @@
+//Map artwork
 import Map_Sunset from "../assets/imgs/Map_Sunset.png";
 import Map_Split from "../assets/imgs/Map_Split.png";
 import Map_Abyss from "../assets/imgs/Map_Abyss.png";
@@ -9,6 +10,8 @@ import Map_Icebox from "../assets/imgs/Map_Icebox.png";
 import Map_Lotus from "../assets/imgs/Map_Lotus.png";
 import Map_Pearl from "../assets/imgs/Map_Pearl.png";
 import Map_Fracture from "../assets/imgs/Map_Fracture.png";
+
+//Minimaps
 import Mini_Sunset from "../assets/imgs/Mini_Sunset.png";
 import Mini_Fracture from "../assets/imgs/Mini_Fracture.png";
 import Mini_Ascent from "../assets/imgs/Mini_Ascent.png";
@@ -20,6 +23,8 @@ import Mini_Haven from "../assets/imgs/Mini_Haven.png";
 import Mini_Pearl from "../assets/imgs/Mini_Pearl.png";
 import Mini_Lotus from "../assets/imgs/Mini_Lotus.png";
 import Mini_Icebox from "../assets/imgs/Mini_Icebox.png";
+
+//Lore data
 import Loredata from "../constants/Loredata.json"
 
 

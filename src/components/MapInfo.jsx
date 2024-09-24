@@ -1,9 +1,7 @@
 import { useParams } from 'react-router-dom';
 import { Maps } from '../constants';
-import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
-import { IconButton } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
-import { Link } from 'react-router-dom';
+
 
 
 const MapInfo = () => {
@@ -16,7 +14,7 @@ const MapInfo = () => {
     <div className="relative w-full h-screen cursor-pointer">
     {/* Blurred Background */}
     <div
-        className="absolute inset-0 bg-cover bg-center brightness-50 contrast-150 grayscale blur-lg"
+        className="absolute inset-0 bg-cover bg-center brightness-50 contrast-125 blur-lg"
         style={{ backgroundImage: `url(${mapInfo.backgroundImage})` }}
     />
     
@@ -36,7 +34,8 @@ const MapInfo = () => {
         <div className="inset-0 bg-cover bg-center h-[350px] w-[215px] lg:h-[600px] lg:w-[600px]" style={{backgroundImage: `url(${mapInfo.miniBgImage})`}} />
 
             <div className="max-w-full">
-                <h1 className='uppercase font-custom font-extralight text-5xl mb-3 text-red-700'>// ABOUT</h1>
+                <h1 className='uppercase font-custom font-medium text-xs mb-3 text-red-700'>// LOCATION <span className='font-medium text-xs text-white'> {mapInfo.location} // {mapInfo.coords}</span></h1>
+                
                 <p className='text-left font-light text-xl'>{mapInfo.loreInfo}</p> 
                 <div>
                     <h1 className='uppercase font-custom font-black text-7xl text-red-800'>PLAY RATE: <span className='uppercase font-custom font-black text-7xl text-white'>{mapInfo.playRate}</span></h1>

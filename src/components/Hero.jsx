@@ -22,13 +22,17 @@ const [isMuted, setIsMuted] = useState(false)
            <span className="text-red-700 font-bold">Why play the game when you can dominate it.</span></p>
 
            <Link to="/start">
-           <button className="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-red-600 to-red-900 hover:text-white dark:text-white">
+           <button className="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900  group bg-gradient-to-br from-red-600 to-red-900 hover:text-white dark:text-white">
             <p className="font-light relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-stone-950 rounded-md group-hover:bg-opacity-0">
             GET STARTED
             </p>
             </button>
             </Link>
-
+            <button className="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900  group bg-gradient-to-br from-stone-600 to-slate-900 hover:text-white dark:text-white">
+            <p className="font-light relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-stone-950 rounded-md group-hover:bg-opacity-0">
+            NEW TO VALORANT?
+            </p>
+            </button>
 
 
           <div className="audio-buttons">

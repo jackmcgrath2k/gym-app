@@ -14,7 +14,9 @@ export default function Generator() {
   return (
 
     
-    <div className="text-white items-center">
+    <div>
+
+      <div className='fixed top-0 left-0 right-0 z-10 p-5'>
       <div className="w-full container mx-auto">
 
         <div className="w-full flex items-center justify">
@@ -30,10 +32,11 @@ export default function Generator() {
           </div>
         </div>
       </div>
+      </div>
 
 
-    <div className="py-20">
-      <SectionWrap header={"LETS TALK STRATEGY"} title={"MAP SELECT"}>
+    <div className="py-20 items-center">
+      <SectionWrap header={"LETS TALK STRATEGY"} title={"MAP SELECT"} episode={"EPISODE 9"} act={"ACT 2"}> 
         <Slider></Slider>
       </SectionWrap>
 

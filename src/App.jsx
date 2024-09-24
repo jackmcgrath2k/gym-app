@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import Hero from './components/Hero'
 import Generator from './components/Generator'
-import GeneratorBoard from './components/GeneratorBoard'
 import {Route, Routes} from 'react-router-dom'
 import MapPage, { mapDetailsLoader } from './components/MapPage'
 import MapInfo, { mapInfoLoader } from './components/MapInfo'
@@ -16,7 +15,7 @@ function App() {
         <Route path="/" element={<Hero />} />
         <Route path="/start" element={<Generator />} />
         {/*item connects to MapDetails*/}
-        <Route path="/start/:title" element={<MapPage />} loader={mapDetailsLoader}/>
+        <Route path="/start/select/:title" element={<MapPage />} loader={mapDetailsLoader}/>
         <Route path="/start/info/:lore" element={<MapInfo />} loader={mapInfoLoader}/>
         
         

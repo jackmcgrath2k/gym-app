@@ -42,7 +42,7 @@ export default function Slider() {
                     <div className="absolute inset-0 bg-cover bg-center" style={{backgroundImage: `url(${item.backgroundImage})`}} />
 
                     {/*Div covering all slide content - makes anywhere clickable*/}
-                    <Link to={item.title}><div>
+                    <Link to={`/start/select/${item.title}`}><div>
 
                     {/*Shady gradient thing to make text more legible*/}
                     <div className="absolute inset-0 bg-gradient-to-b from-stone-900" />
