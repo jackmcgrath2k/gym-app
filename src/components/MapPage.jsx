@@ -6,17 +6,20 @@ import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import React from 'react'
 import SectionWrap from './SectionWrap'
+import { agentInfo } from '../constants/stratdata';
 
 const MapPage = () => {
   const { title } = useParams(); // Extract the title parameter
+
   const mapPage = Maps.find(map => map.title === title);
+
   const navigate = useNavigate();
 
 return (
 
   <div className="min-h-screen flex flex-col gap-10 items-center justify-center text-center w-full p-5">
-    <div className="absolute inset-0 bg-cover bg-center brightness-100 blur-lg z-0" style={{ backgroundImage: `url(${mapPage.backgroundImage})` }}/>
-<div className='z-10'>
+    <div className="absolute inset-0 bg-cover bg-center brightness-125 blur-lg z-0 " style={{ backgroundImage: `url(${mapPage.backgroundImage})` }}/>
+    <div className='z-10'>
     {/* VALOSTRAT HEADER */}
     <div className='fixed top-0 left-0 right-0 z-10 p-5'>
       <div className="w-full container mx-auto mb-5"> 
@@ -36,19 +39,26 @@ return (
       </div>
 
       {/* MAP TITLE */}
-      <div>
+      <div className='relative justify-center py-20'>
       <h1 className="uppercase font-custom font-black text-10xl text-red-700 m-20">{mapPage.title}</h1>
       </div>
       
-      <div className=''>
+      <div>
       <SectionWrap header={"SELECT YOUR AGENT"}>
         
       </SectionWrap>
       </div>
-  
-  
 
     </div>
+        <div className='grid grid-cols-5 gap-4'>
+        {agentInfo.map((image) => (
+          <div className='relative group' key={image.img}>
+            <div className='h-[100px] w-[100px] m-1 object-cover border-4 border-stone-500 border-opacity-40 hover:bg-gradient-to-br from-red-600 to-red-900 hover:border-red-800'>
+            <img src={image.img} alt={image.name} className="object-cover hover:scale-110" />
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
 );
 };

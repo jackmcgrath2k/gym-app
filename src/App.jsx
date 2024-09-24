@@ -4,6 +4,7 @@ import Generator from './components/Generator'
 import {Route, Routes} from 'react-router-dom'
 import MapPage, { mapDetailsLoader } from './components/MapPage'
 import MapInfo, { mapInfoLoader } from './components/MapInfo'
+import NewPlayers from './components/NewPlayers'
 
 function App() {
   
@@ -14,9 +15,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Hero />} />
         <Route path="/start" element={<Generator />} />
-        {/*item connects to MapDetails*/}
         <Route path="/start/select/:title" element={<MapPage />} loader={mapDetailsLoader}/>
         <Route path="/start/info/:lore" element={<MapInfo />} loader={mapInfoLoader}/>
+        <Route path="/newplayer" element={<NewPlayers />} />
         
         
       </Routes>

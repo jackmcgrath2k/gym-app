@@ -1,7 +1,6 @@
 import React from 'react'
 import SectionWrap from './SectionWrap'
 import Slider from './Slider'
-import { AGENTS } from '../constants/stratdata'
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 import { IconButton } from '@mui/material';
 import { Link } from 'react-router-dom';

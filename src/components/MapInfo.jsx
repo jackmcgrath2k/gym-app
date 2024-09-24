@@ -37,7 +37,7 @@ const MapInfo = () => {
                 <h1 className='uppercase font-custom font-medium text-xs mb-3 text-red-700'>// LOCATION <span className='font-medium text-xs text-white'> {mapInfo.location} // {mapInfo.coords}</span></h1>
                 
                 <p className='text-left font-light text-xl'>{mapInfo.loreInfo}</p> 
-                <div>
+                <div className='mt-5'>
                     <h1 className='uppercase font-custom font-black text-7xl text-red-800'>PLAY RATE: <span className='uppercase font-custom font-black text-7xl text-white'>{mapInfo.playRate}</span></h1>
                     <h1 className='uppercase font-custom font-black text-7xl my-2 text-red-800'>FAVOURS: <span className='uppercase font-custom font-black text-7xl text-white'>{mapInfo.sideFav}</span></h1>
                 </div>

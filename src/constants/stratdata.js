@@ -27,9 +27,141 @@ import A_Yoru from "../assets/imgs/agents/A_Yoru.png";
 
 
 
-export const AGENTS = {
-    individual: ['Brimstone','Viper','Omen','Killjoy','Cypher','Sova','Sage','Phoenix','Jett','Reyna','Raze','Breach','Skye','Yoru','Astra','KAY/O','Chamber','Neon','Fade','Harbor','Gekko','Deadlock','Iso','Clove','VYSE'],
+export const agentInfo = [
+    {
+        a_name: "Astra",
+        img: A_Astra,
+
+    },
+    {
+        a_name: "Breach",
+        img: A_Breach,
+        
+    },
+    {
+        a_name: "Brimstone",
+        img: A_Brimstone,
+        
+    },
+    {
+        a_name: "Chamber",
+        img: A_Chamber,
+        
+    },
+    {
+        a_name: "Clove",
+        img: A_Clove,
+        
+    },
+    {
+        a_name: "Cypher",
+        img: A_Cypher,
+        
+    },
+    {
+        a_name: "Deadlock",
+        img: A_Deadlock,
+        
+    },
+    {
+        a_name: "Fade",
+        img: A_Fade,
+        
+    },
+    {
+        a_name: "Gekko",
+        img: A_Gekko,
+        
+    },
+    {
+        a_name: "Harbor",
+        img: A_Harbor,
+        
+    },
+    {
+        a_name: "Iso",
+        img: A_Iso,
+        
+    },
+    {
+        a_name: "Jett",
+        img: A_Jett,
+        
+    },
+    {
+        a_name: "KAY/O",
+        img: A_KAYO,
+        
+    },
+    {
+        a_name: "Killjoy",
+        img: A_KJ,
+        
+    },
+    {
+        a_name: "Neon",
+        img: A_Neon,
+        
+    },
+    {
+        a_name: "Omen",
+        img: A_Omen,
+        
+    },
+    {
+        a_name: "Phoenix",
+        img: A_Phoenix,
+        
+    },
+    {
+        a_name: "Raze",
+        img: A_Raze,
+        
+    },
+    {
+        a_name: "Reyna",
+        img: A_Reyna,
+        
+    },
+    {
+        a_name: "Sage",
+        img: A_Sage,
+        
+    },
+    {
+        a_name: "Skye",
+        img: A_Skye,
+        
+    },
+    {
+        a_name: "Sova",
+        img: A_Sova,
+        
+    },
+    {
+        a_name: "VYSE",
+        img: A_VYSE,
+        
+    },
+    {
+        a_name: "Viper",
+        img: A_Viper,
+        
+    },
+    {
+        a_name: "Yoru",
+        img: A_Yoru,
+        
+    },
+
+];
+
+
+// individual: ['Brimstone','Viper','Omen','Killjoy','Cypher','Sova','Sage','Phoenix','Jett','Reyna','Raze','Breach','Skye','Yoru','Astra','KAY/O','Chamber','Neon','Fade','Harbor','Gekko','Deadlock','Iso','Clove','VYSE'],
     
+
+/* 
+
     controller_agents: 
     {
         controllers: ['Astra', 'Brimstone', 'Clove', 'Harbor', 'Omen', 'Viper']
@@ -49,4 +181,5 @@ export const AGENTS = {
     {
     sentinels: ['Chamber','Cypher','Deadlock','Killjoy','Sage','VYSE']
     }
-}
+
+*/
