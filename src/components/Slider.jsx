@@ -9,7 +9,7 @@ import Info from '@mui/icons-material/Info'
 import { IconButton } from '@mui/material'
 import { Link } from 'react-router-dom';
 
-
+{/* For Maps */}
 export default function Slider() {
   return (
     

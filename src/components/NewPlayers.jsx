@@ -1,11 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import { useNavigate } from 'react-router-dom';
+
 
 
 
 export default function NewPlayers() {
-  const navigate = useNavigate();
+  
   return (
 
     
@@ -16,13 +16,26 @@ export default function NewPlayers() {
 
         <div className="w-full flex items-center justify">
           <div className="flex w-full justify-center content-center gap-40">
+
+          <Link to="/agents">
           <h4 className="font-light text-sm text-center my-5 text-white">AGENTS</h4>
+          </Link>
+          
+          <Link to="/maps">
           <h4 className="font-light text-sm text-center my-5 text-white">MAPS</h4>
+          </Link>
+
           <Link to="/">
           <h4 className="font-bold text-sm text-center my-5 text-red-700">VALO<span className="text-white">STRAT</span></h4>
           </Link>
+
+          <Link to="/cinematics">
           <h4 className="font-light text-sm text-center my-5 text-white">CINEMATICS</h4>
+          </Link>
+
+          <Link to="/">
           <h4 className="font-light text-sm text-center my-5 text-white">SOMETHING</h4>
+          </Link>
           </div>
         </div>
       </div>
