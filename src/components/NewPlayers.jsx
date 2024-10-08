@@ -34,7 +34,7 @@ export default function NewPlayers() {
           </Link>
 
           <Link to="/">
-          <h4 className="font-light text-sm text-center my-5 text-white">SOMETHING</h4>
+          <h4 className="font-light text-sm text-center my-5 text-white">MUSIC BOX</h4>
           </Link>
           </div>
         </div>

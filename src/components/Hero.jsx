@@ -1,11 +1,15 @@
-import React, { useState, useEffect } from 'react'
-import VolumeUpIcon from '@mui/icons-material/VolumeUp';
 import VolumeOffIcon from '@mui/icons-material/VolumeOff';
-import song from '../assets/music/song.wav';
+import VolumeUpIcon from '@mui/icons-material/VolumeUp';
+import PlayArrowIcon from '@mui/icons-material/PlayArrow';
+import PauseIcon from '@mui/icons-material/Pause';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { Music } from '../constants/music';
+
 
 export default function Hero() {
 const [isMuted, setIsMuted] = useState(false)
+const [isPlaying, setIsPlaying] = useState(false)
 
   return (
     <div className="min-h-screen flex flex-col gap-10 items-center justify-center text-center max-w-[900px] w-full mx-auto p-5">
@@ -40,7 +44,9 @@ const [isMuted, setIsMuted] = useState(false)
           <div className="audio-buttons">
             <div className="absolute top-5 right-5">
               <div>
-                <p>songname</p>
+          
+                <p>{Music.title}</p>
+                
               {isMuted ? <VolumeOffIcon /> : <VolumeUpIcon />}
               </div>
             </div>
@@ -48,3 +54,11 @@ const [isMuted, setIsMuted] = useState(false)
     </div>
   )
 }
+
+
+<div className="buttons">
+
+
+
+
+</div>
