@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom';
 import { Maps } from '../constants'
 import { agentInfo } from '../constants/stratdata';
 import { useParams } from 'react-router-dom';
-import SectionWrap from './SectionWrap'
+
 
 //Has to retrieve agent name from title - done
 //Has to retrieve   map name from title - done 
@@ -24,7 +24,7 @@ export default function Strategy() {
 
 return (
 
-  <div className="min-h-screen flex flex-col gap-10 items-center justify-center text-center w-full p-5">
+  <div className="min-h-screen flex flex-col gap-10 items-center text-center w-full p-5">
     <div className="absolute inset-0 bg-cover bg-center brightness-125 blur-lg z-0 " style={{ backgroundImage: `url(${mapPage.backgroundImage})` }}/>
     <div className='z-10'>
     {/* VALOSTRAT HEADER */}
@@ -45,30 +45,43 @@ return (
       </div>
       
 
-      {/* MAP TITLE */}
+   
       </div>
-      <div>
-      <SectionWrap header={"AGENT SELECT"}>
-        <p className='text-6xl font-black text-red-700 pb-3'>SELECT YOUR AGENT</p>
-      <div>
-        <p className="text-black">
-          {agentPage.a_name}
-          </p></div>
-      
-      </SectionWrap>
-      </div>
-      
 
+
+
+
+<div className="flex flex-row">
+<div className="left-0">
+<img className="h-[350px] w-[215px] lg:h-[850px] lg:w-[850px] " src={agentPage.disp} />
+</div>
+
+
+
+
+<div className="flex flex-col justify-center ml-auto">
+      {/* Don't need links - need filtering, maybe an onClick show what is selected/hide */}
+      <Link to="/start">
+           <button className="relative inline-flex items-center justify-center p-0.5 mb-6 me-2 overflow-hidden text-9xl font-medium text-gray-900  group bg-gradient-to-br from-cyan-400 to-teal-500 hover:text-yellow-100 dark:text-white">
+            <p className="font-semibold relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-cyan-950 rounded-md group-hover:bg-opacity-0">
+            OFFENSE
+            </p>
+            </button>
+            </Link>
+            <Link to="/newplayer">
+            <button className="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-9xl text-gray-900 group bg-gradient-to-br from-red-600 to-red-900 hover:text-yellow-100 dark:text-white">
+            <p className="font-semibold relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-red-950 rounded-md group-hover:bg-opacity-0">
+            DEFENSE
+            </p>
+            </button>
+            </Link>
+      
+ </div>
+    </div>
     </div>
   
 
     </div>
 );
 };
-
-
-
-
-
-
 
