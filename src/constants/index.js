@@ -42,6 +42,7 @@ export const Maps = [
         sideFav: "BOTH",
         compRot: "IN COMPETITIVE ROTATION",
         inRotation: true, 
+ 
     },
     {
         title: "fracture",
@@ -56,6 +57,7 @@ export const Maps = [
         sideFav: "OFFENSE",
         compRot: "NOT IN COMPETITIVE ROTATION",
         inRotation: false, 
+  
     },
     {
         title: "ascent",
@@ -70,6 +72,7 @@ export const Maps = [
         sideFav: "DEFENSE",
         compRot: "IN COMPETITIVE ROTATION",
         inRotation: true, 
+     
     },
     {
         title: "breeze",
@@ -84,6 +87,7 @@ export const Maps = [
         sideFav: "OFFENSE",
         compRot: "NOT IN COMPETITIVE ROTATION",
         inRotation: false, 
+      
     },
     {
         title: "bind",
@@ -98,6 +102,7 @@ export const Maps = [
         sideFav: "DEFENSE",
         compRot: "IN COMPETITIVE ROTATION",
         inRotation: true, 
+      
     },
     {
         title: "split",
@@ -112,6 +117,7 @@ export const Maps = [
         sideFav: "DEFENSE",
         compRot: "NOT IN COMPETITIVE ROTATION",
         inRotation: false, 
+     
 
     },
     {
@@ -127,6 +133,7 @@ export const Maps = [
         sideFav: "OFFENSE",
         compRot: "IN COMPETITIVE ROTATION",
         inRotation: true, 
+     
     },
     {
         title: "lotus",
@@ -141,6 +148,7 @@ export const Maps = [
         sideFav: "OFFENSE",
         compRot: "IN COMPETITIVE ROTATION",
         inRotation: true, 
+       
     },
     {
         title: "pearl",
@@ -155,6 +163,7 @@ export const Maps = [
         sideFav: "BOTH",
         compRot: "NOT IN COMPETITIVE ROTATION",
         inRotation: false, 
+     
     },
     {
         title: "icebox",
@@ -169,6 +178,7 @@ export const Maps = [
         sideFav: "NO DATA",
         compRot: "IN COMPETITIVE ROTATION",
         inRotation: true, 
+    
 
     },
     {
@@ -184,6 +194,7 @@ export const Maps = [
         sideFav: "OFFENSE",
         compRot: "IN COMPETITIVE ROTATION",
         inRotation: true, 
+     
     },
 
 ];
