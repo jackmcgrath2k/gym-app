@@ -244,7 +244,7 @@ export const agentInfo = [
 ];
 
 
-//This took forever to figure out
+//Fill with false data and placeholder utility icons for time being.
 
 export const strategies = {
     "Astra": {    
@@ -300,30 +300,40 @@ export const strategies = {
             offense:
             [
             {
-            heading: "Full Utility B Site",
-            stratdesc: "Drop a nebula on B Tunnel and B Generator, with a nova pulse on site to disturb a potential defuse."
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
             },
 
             {
-            heading: "B Site Post Plant Gravity Well",
-            stratdesc: "Place a gravity well on spike, defend from B tower ensuring protection of both flank and spike."
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
             },
 
             {
-            heading: "A Site Post Plant Gravity Well",
-            stratdesc: "Place a gravity well on spike and defend from A main, watching both flank and spike."
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
             }
             ],
             
             defense:
             [
             {
-            heading: "A Main Choke Point Control",
-            stratdesc: "Place a nebula on A Main entrance onto site, pair it with a gravity well just outside the smoke."
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
             },
             {
-            heading: "B Arcade Nebula / B Main Choke Point Control",
-            stratdesc: "Place a nebula on B Arcade entry point to watch from B tower, as well as a nebula and gravity well on B Main, utilising the same trick as the A Main choke."
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
             }
             ]
         },
@@ -331,245 +341,11410 @@ export const strategies = {
             offense:
             [
             {
-            heading: "B Site Post Plant Gravity Well",
-            stratdesc: "Place a Gravity Well just outside of boats to catch the defuse."
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
             },
 
             {
-            heading: "Aggressive Mid Smoke/Catwalk Push",
-            stratdesc: "Place a nebula on mid to either push through or flank through smoke."
-            }
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
 
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
             ],
-            defense: 
+            
+            defense:
             [
             {
-            heading: "B Site Choke hold",
-            stratdesc: "Place a nebula as well as other utility on B Main entry."
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
             },
-
             {
-            heading: "A Site Choke",
-            stratdesc: "Place a nebula on A wine as a fake, and a gravity well on the center of the entry to ctach attackers by suprise."
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
             }
-            ],
-
+            ]
         },
         "breeze": {
             offense:
             [
             {
-            heading: "B Site Post Plant Gravity Well",
-            stratdesc: "Place a Gravity Well just outside of boats to catch the defuse."
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
             },
 
             {
-            heading: "Aggressive Mid Smoke/Catwalk Push",
-            stratdesc: "Place a nebula on mid to either push through or flank through smoke."
-            }
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
 
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
             ],
-            defense: 
+            
+            defense:
             [
             {
-            heading: "B Site Post Plant Gravity Well",
-            stratdesc: "Place a Gravity Well just outside of boats to catch the defuse."
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
             },
-
             {
-            heading: "Aggressive Mid Smoke/Catwalk Push",
-            stratdesc: "Place a nebula on mid to either push through or flank through smoke."
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
             }
-            ],
+            ]
         },
         "bind": {
             offense:
             [
             {
-            heading: "B Site Post Plant Gravity Well",
-            stratdesc: "Place a Gravity Well just outside of boats to catch the defuse."
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
             },
 
             {
-            heading: "Aggressive Mid Smoke/Catwalk Push",
-            stratdesc: "Place a nebula on mid to either push through or flank through smoke."
-            }
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
 
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
             ],
-            defense: 
+            
+            defense:
             [
             {
-            heading: "B Site Post Plant Gravity Well",
-            stratdesc: "Place a Gravity Well just outside of boats to catch the defuse."
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
             },
-
             {
-            heading: "Aggressive Mid Smoke/Catwalk Push",
-            stratdesc: "Place a nebula on mid to either push through or flank through smoke."
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
             }
-            ],
+            ]
         },
         "split": {
             offense:
             [
             {
-            heading: "B Site Post Plant Gravity Well",
-            stratdesc: "Place a Gravity Well just outside of boats to catch the defuse."
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
             },
 
             {
-            heading: "Aggressive Mid Smoke/Catwalk Push",
-            stratdesc: "Place a nebula on mid to either push through or flank through smoke."
-            }
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
 
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
             ],
-            defense: 
+            
+            defense:
             [
             {
-            heading: "B Site Post Plant Gravity Well",
-            stratdesc: "Place a Gravity Well just outside of boats to catch the defuse."
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
             },
-
             {
-            heading: "Aggressive Mid Smoke/Catwalk Push",
-            stratdesc: "Place a nebula on mid to either push through or flank through smoke."
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
             }
-            ],
+            ]
         },
         "abyss": {
             offense:
             [
             {
-            heading: "B Site Post Plant Gravity Well",
-            stratdesc: "Place a Gravity Well just outside of boats to catch the defuse."
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
             },
 
             {
-            heading: "Aggressive Mid Smoke/Catwalk Push",
-            stratdesc: "Place a nebula on mid to either push through or flank through smoke."
-            }
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
 
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
             ],
-            defense: 
+            
+            defense:
             [
             {
-            heading: "B Site Post Plant Gravity Well",
-            stratdesc: "Place a Gravity Well just outside of boats to catch the defuse."
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
             },
-
             {
-            heading: "Aggressive Mid Smoke/Catwalk Push",
-            stratdesc: "Place a nebula on mid to either push through or flank through smoke."
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
             }
-            ],
+            ]
         },
         "lotus": {
             offense:
             [
             {
-            heading: "B Site Post Plant Gravity Well",
-            stratdesc: "Place a Gravity Well just outside of boats to catch the defuse."
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
             },
 
             {
-            heading: "Aggressive Mid Smoke/Catwalk Push",
-            stratdesc: "Place a nebula on mid to either push through or flank through smoke."
-            }
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
 
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
             ],
-            defense: 
+            
+            defense:
             [
             {
-            heading: "B Site Post Plant Gravity Well",
-            stratdesc: "Place a Gravity Well just outside of boats to catch the defuse."
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
             },
-
             {
-            heading: "Aggressive Mid Smoke/Catwalk Push",
-            stratdesc: "Place a nebula on mid to either push through or flank through smoke."
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
             }
-            ],
+            ]
         },
         "pearl": {
             offense:
             [
             {
-            heading: "B Site Post Plant Gravity Well",
-            stratdesc: "Place a Gravity Well just outside of boats to catch the defuse."
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
             },
 
             {
-            heading: "Aggressive Mid Smoke/Catwalk Push",
-            stratdesc: "Place a nebula on mid to either push through or flank through smoke."
-            }
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
 
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
             ],
-            defense: 
+            
+            defense:
             [
             {
-            heading: "B Site Post Plant Gravity Well",
-            stratdesc: "Place a Gravity Well just outside of boats to catch the defuse."
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
             },
-
             {
-            heading: "Aggressive Mid Smoke/Catwalk Push",
-            stratdesc: "Place a nebula on mid to either push through or flank through smoke."
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
             }
-            ],
+            ]
         },
         "icebox": {
             offense:
             [
             {
-            heading: "B Site Post Plant Gravity Well",
-            stratdesc: "Place a Gravity Well just outside of boats to catch the defuse."
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
             },
 
             {
-            heading: "Aggressive Mid Smoke/Catwalk Push",
-            stratdesc: "Place a nebula on mid to either push through or flank through smoke."
-            }
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
 
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
             ],
-            defense: 
+            
+            defense:
             [
             {
-            heading: "B Site Post Plant Gravity Well",
-            stratdesc: "Place a Gravity Well just outside of boats to catch the defuse."
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
             },
-
             {
-            heading: "Aggressive Mid Smoke/Catwalk Push",
-            stratdesc: "Place a nebula on mid to either push through or flank through smoke."
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
             }
-            ],
+            ]
         },
         "haven": {
             offense:
             [
             {
-            heading: "B Site Post Plant Gravity Well",
-            stratdesc: "Place a Gravity Well just outside of boats to catch the defuse."
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
             },
 
             {
-            heading: "Aggressive Mid Smoke/Catwalk Push",
-            stratdesc: "Place a nebula on mid to either push through or flank through smoke."
-            }
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
 
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
             ],
-            defense: 
+            
+            defense:
             [
             {
-            heading: "B Site Post Plant Gravity Well",
-            stratdesc: "Place a Gravity Well just outside of boats to catch the defuse."
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+    },
+    "Breach": {    
+        "sunset": {
+            offense:
+            [
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "01"
             },
 
             {
-            heading: "Aggressive Mid Smoke/Catwalk Push",
-            stratdesc: "Place a nebula on mid to either push through or flank through smoke."
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "03"
             }
             ],
+            
+            defense:
+            [
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "02"
+            },
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "03"
+            },
+            ]
+        },
+
+        "fracture":  {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "ascent": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "breeze": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "bind": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "split": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "abyss": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "lotus": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "pearl": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "icebox": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "haven": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+    },
+    "Brimstone": {    
+        "sunset": {
+            offense:
+            [
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "02"
+            },
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "03"
+            },
+            ]
+        },
+
+        "fracture":  {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "ascent": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "breeze": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "bind": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "split": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "abyss": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "lotus": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "pearl": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "icebox": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "haven": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+    },
+    "Chamber": {    
+        "sunset": {
+            offense:
+            [
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "02"
+            },
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "03"
+            },
+            ]
+        },
+
+        "fracture":  {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "ascent": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "breeze": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "bind": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "split": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "abyss": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "lotus": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "pearl": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "icebox": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "haven": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+    },
+    "Clove": {    
+        "sunset": {
+            offense:
+            [
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "02"
+            },
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "03"
+            },
+            ]
+        },
+
+        "fracture":  {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "ascent": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "breeze": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "bind": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "split": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "abyss": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "lotus": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "pearl": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "icebox": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "haven": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+    },
+    "Cypher": {    
+        "sunset": {
+            offense:
+            [
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "02"
+            },
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "03"
+            },
+            ]
+        },
+
+        "fracture":  {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "ascent": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "breeze": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "bind": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "split": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "abyss": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "lotus": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "pearl": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "icebox": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "haven": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+    },
+    "Deadlock": {    
+        "sunset": {
+            offense:
+            [
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "02"
+            },
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "03"
+            },
+            ]
+        },
+
+        "fracture":  {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "ascent": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "breeze": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "bind": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "split": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "abyss": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "lotus": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "pearl": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "icebox": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "haven": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+    },
+    "Fade": {    
+        "sunset": {
+            offense:
+            [
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "02"
+            },
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "03"
+            },
+            ]
+        },
+
+        "fracture":  {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "ascent": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "breeze": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "bind": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "split": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "abyss": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "lotus": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "pearl": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "icebox": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "haven": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+    },
+    "Gekko": {    
+        "sunset": {
+            offense:
+            [
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "02"
+            },
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "03"
+            },
+            ]
+        },
+
+        "fracture":  {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "ascent": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "breeze": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "bind": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "split": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "abyss": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "lotus": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "pearl": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "icebox": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "haven": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+    },
+    "Harbor": {    
+        "sunset": {
+            offense:
+            [
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "02"
+            },
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "03"
+            },
+            ]
+        },
+
+        "fracture":  {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "ascent": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "breeze": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "bind": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "split": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "abyss": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "lotus": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "pearl": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "icebox": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "haven": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+    },
+    "Iso": {    
+        "sunset": {
+            offense:
+            [
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "02"
+            },
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "03"
+            },
+            ]
+        },
+
+        "fracture":  {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "ascent": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "breeze": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "bind": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "split": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "abyss": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "lotus": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "pearl": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "icebox": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "haven": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+    },
+    "Jett": {    
+        "sunset": {
+            offense:
+            [
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "02"
+            },
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "03"
+            },
+            ]
+        },
+
+        "fracture":  {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "ascent": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "breeze": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "bind": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "split": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "abyss": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "lotus": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "pearl": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "icebox": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "haven": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+    },
+    "KAYO": {    
+        "sunset": {
+            offense:
+            [
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "02"
+            },
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "03"
+            },
+            ]
+        },
+
+        "fracture":  {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "ascent": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "breeze": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "bind": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "split": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "abyss": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "lotus": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "pearl": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "icebox": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "haven": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+    },
+    "Killjoy": {    
+        "sunset": {
+            offense:
+            [
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "02"
+            },
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "03"
+            },
+            ]
+        },
+
+        "fracture":  {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "ascent": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "breeze": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "bind": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "split": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "abyss": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "lotus": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "pearl": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "icebox": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "haven": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+    },
+    "Neon": {    
+        "sunset": {
+            offense:
+            [
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "02"
+            },
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "03"
+            },
+            ]
+        },
+
+        "fracture":  {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "ascent": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "breeze": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "bind": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "split": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "abyss": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "lotus": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "pearl": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "icebox": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "haven": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+    },
+    "Omen": {    
+        "sunset": {
+            offense:
+            [
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "02"
+            },
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "03"
+            },
+            ]
+        },
+
+        "fracture":  {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "ascent": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "breeze": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "bind": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "split": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "abyss": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "lotus": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "pearl": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "icebox": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "haven": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+    },
+    "Phoenix": {    
+        "sunset": {
+            offense:
+            [
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "02"
+            },
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "03"
+            },
+            ]
+        },
+
+        "fracture":  {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "ascent": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "breeze": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "bind": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "split": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "abyss": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "lotus": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "pearl": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "icebox": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "haven": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+    },
+    "Raze": {    
+        "sunset": {
+            offense:
+            [
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "02"
+            },
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "03"
+            },
+            ]
+        },
+
+        "fracture":  {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "ascent": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "breeze": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "bind": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "split": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "abyss": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "lotus": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "pearl": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "icebox": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "haven": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+    },
+    "Reyna": {    
+        "sunset": {
+            offense:
+            [
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "02"
+            },
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "03"
+            },
+            ]
+        },
+
+        "fracture":  {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "ascent": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "breeze": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "bind": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "split": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "abyss": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "lotus": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "pearl": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "icebox": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "haven": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+    },
+    "Sage": {    
+        "sunset": {
+            offense:
+            [
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "02"
+            },
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "03"
+            },
+            ]
+        },
+
+        "fracture":  {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "ascent": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "breeze": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "bind": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "split": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "abyss": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "lotus": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "pearl": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "icebox": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "haven": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+    },
+    "Skye": {    
+        "sunset": {
+            offense:
+            [
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "02"
+            },
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "03"
+            },
+            ]
+        },
+
+        "fracture":  {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "ascent": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "breeze": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "bind": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "split": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "abyss": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "lotus": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "pearl": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "icebox": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "haven": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+    },
+    "Sova": {    
+        "sunset": {
+            offense:
+            [
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "02"
+            },
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "03"
+            },
+            ]
+        },
+
+        "fracture":  {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "ascent": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "breeze": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "bind": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "split": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "abyss": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "lotus": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "pearl": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "icebox": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "haven": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+    },
+    "Viper": {    
+        "sunset": {
+            offense:
+            [
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "02"
+            },
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "03"
+            },
+            ]
+        },
+
+        "fracture":  {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "ascent": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "breeze": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "bind": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "split": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "abyss": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "lotus": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "pearl": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "icebox": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "haven": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+    },
+    "VYSE": {    
+        "sunset": {
+            offense:
+            [
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "02"
+            },
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "03"
+            },
+            ]
+        },
+
+        "fracture":  {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "ascent": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "breeze": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "bind": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "split": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "abyss": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "lotus": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "pearl": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "icebox": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "haven": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+    },
+    "Yoru": {    
+        "sunset": {
+            offense:
+            [
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "02"
+            },
+            {
+                heading: "Lorem Ipsum",
+                stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                util: [astra_nebula],
+            stratId: "03"
+            },
+            ]
+        },
+
+        "fracture":  {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "ascent": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "breeze": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "bind": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "split": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "abyss": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "lotus": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "pearl": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "icebox": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
+        },
+        "haven": {
+            offense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            },
+
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
+            ],
+            
+            defense:
+            [
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+            {
+            heading: "Lorem Ipsum",
+            stratdesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            util: [astra_nebula],
+            stratId: "02"
+            }
+            ]
         },
     }
 }

@@ -1,5 +1,5 @@
 
-import React from 'react';
+import {React, useState} from 'react';
 import { Link } from 'react-router-dom';
 import GitHubIcon from '@mui/icons-material/GitHub';
 
@@ -7,6 +7,15 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 
 export default function Hero() {
 
+  const [showMessage, setShowMessage] = useState(false);
+
+  const handleClick = () => {
+    setShowMessage(true);
+
+    setTimeout(() => {
+      setShowMessage(false);
+    }, 3000); // hide after 3 seconds
+  };
 
   return (
     <div className="min-h-screen flex flex-col gap-10 items-center justify-center text-center max-w-[900px] w-full mx-auto p-5">
@@ -29,16 +38,26 @@ export default function Hero() {
             </p>
             </button>
             </Link>
-            <Link to="/newplayer">
-            <button className="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900  group bg-gradient-to-br from-stone-600 to-slate-900 hover:text-white dark:text-white">
+            
+            <Link to="/"> {/* <Link to="/newplayer"> */}
+            <button className="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900  group bg-gradient-to-br from-stone-600 to-slate-900 hover:text-white dark:text-white" onClick={handleClick}>
             <p className="font-light relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-stone-950 rounded-md group-hover:bg-opacity-0">
             NEW TO VALORANT?
             </p>
             </button>
+            {showMessage && (
+        <div className="text-red-700 text-sm absolute">
+          // UNDER CONSTRUCTION
+        </div>
+      )}
             </Link>
 
 
-          <div className="audio-buttons">
+            
+          
+
+
+          <div className="gitlink">
             <div className="absolute top-5 right-5">
               <div>
               <Link to="https://github.com/jackmcgrath2k/gym-app">
@@ -51,11 +70,3 @@ export default function Hero() {
     </div>
   )
 }
-
-
-<div className="buttons">
-
-
-
-
-</div>
