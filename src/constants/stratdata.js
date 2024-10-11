@@ -25,6 +25,7 @@ import A_Viper from "../assets/imgs/agents/A_Viper.png";
 import A_VYSE from "../assets/imgs/agents/A_VYSE.png";
 import A_Yoru from "../assets/imgs/agents/A_Yoru.png";
 
+
 //Agent slider display images
 import A_Astra_disp from "../assets/imgs/agents/A_Astra_disp.png";
 import A_Breach_disp from "../assets/imgs/agents/A_Breach_disp.png";
@@ -52,10 +53,11 @@ import A_Viper_disp from "../assets/imgs/agents/A_Viper_disp.png";
 import A_VYSE_disp from "../assets/imgs/agents/A_VYSE_disp.png";
 import A_Yoru_disp from "../assets/imgs/agents/A_Yoru_disp.png";
 
-//Strats data
+//Agent ability icons
+import astra_nebula from "../assets/imgs/agents/astra_nebula.png";
+import astra_stun from "../assets/imgs/agents/astra_stun.png";
+import astra_gravity from "../assets/imgs/agents/astra_gravity.png";
 
-
-import { Maps } from "../constants/index.js"
 
 //filter strats through here?
 export const agentInfo = [
@@ -242,118 +244,331 @@ export const agentInfo = [
 ];
 
 
-//This took forever
+//This took forever to figure out
 
 export const strategies = {
-    "Astra": {    //Astra
+    "Astra": {    
         "sunset": {
-            offense: [
-              "Hold the angle at A site.",
-              "Use utility to control mid.",
+            offense:
+            [
+            {
+            heading: "Top Mid Nebula & Market Star",
+            stratdesc: "Cover a push up Mid with these smokes, with the option to take back the star at Market for a more aggressive play.",
+            util: [astra_nebula],
+            stratId: "01"
+            },
+
+            {
+            heading: "B Site Pillar Stun & Nebula",
+            stratdesc: "Use Nebula to block sight lines, with a stun to give your team a protected scale onto B Site.",
+            util: [astra_nebula, astra_stun],
+            stratId: "02"
+            },
+
+            {
+            heading: "A Link Site Split Nebula Smokes",
+            stratdesc: "Block odd sight lines with these Nebula lineups so you can cover your approach onto A Site.",
+            util: [astra_nebula],
+            stratId: "03"
+            }
             ],
-            defense: [
-              "Watch for flanks from B.",
-              "Use smokes to block vision."
-            ],
+            
+            defense:
+            [
+            {
+            heading: "B Site Pillar Stars Hold",
+            stratdesc: "Pull attackers through a Nebula to disrupt attackers executing onto B Site.",
+            util: [astra_nebula, astra_gravity],
+            stratId: "01"
+            },
+            {
+            heading: "Orb A Main Gravity Well",
+            stratdesc: "Disrupt an A Main push with this gravity well, pulling attackers into a disadvantagous position.",
+            util: [astra_gravity],
+            stratId: "02"
+            },
+            {
+            heading: "A Stairs One Way Nebula",
+            stratdesc: "Easy way to watch attackers pushing A Site, also allowing for potential flank break.",
+            util: [astra_nebula],
+            stratId: "03"
+            },
+            ]
         },
-        "fracture": {
-            offense: [
-              "test",
-              "Use utility to control mid.",
+
+        "fracture":  {
+            offense:
+            [
+            {
+            heading: "Full Utility B Site",
+            stratdesc: "Drop a nebula on B Tunnel and B Generator, with a nova pulse on site to disturb a potential defuse."
+            },
+
+            {
+            heading: "B Site Post Plant Gravity Well",
+            stratdesc: "Place a gravity well on spike, defend from B tower ensuring protection of both flank and spike."
+            },
+
+            {
+            heading: "A Site Post Plant Gravity Well",
+            stratdesc: "Place a gravity well on spike and defend from A main, watching both flank and spike."
+            }
             ],
-            defense: [
-              "Watch for flanks from B.",
-              "Use smokes to block vision."
-            ],
+            
+            defense:
+            [
+            {
+            heading: "A Main Choke Point Control",
+            stratdesc: "Place a nebula on A Main entrance onto site, pair it with a gravity well just outside the smoke."
+            },
+            {
+            heading: "B Arcade Nebula / B Main Choke Point Control",
+            stratdesc: "Place a nebula on B Arcade entry point to watch from B tower, as well as a nebula and gravity well on B Main, utilising the same trick as the A Main choke."
+            }
+            ]
         },
         "ascent": {
-            offense: [
-              "Hold the angle at A site.",
-              "Use utility to control mid.",
+            offense:
+            [
+            {
+            heading: "B Site Post Plant Gravity Well",
+            stratdesc: "Place a Gravity Well just outside of boats to catch the defuse."
+            },
+
+            {
+            heading: "Aggressive Mid Smoke/Catwalk Push",
+            stratdesc: "Place a nebula on mid to either push through or flank through smoke."
+            }
+
             ],
-            defense: [
-              "Watch for flanks from B.",
-              "Use smokes to block vision."
+            defense: 
+            [
+            {
+            heading: "B Site Choke hold",
+            stratdesc: "Place a nebula as well as other utility on B Main entry."
+            },
+
+            {
+            heading: "A Site Choke",
+            stratdesc: "Place a nebula on A wine as a fake, and a gravity well on the center of the entry to ctach attackers by suprise."
+            }
             ],
+
         },
         "breeze": {
-            offense: [
-              "Hold the angle at A site.",
-              "Use utility to control mid.",
+            offense:
+            [
+            {
+            heading: "B Site Post Plant Gravity Well",
+            stratdesc: "Place a Gravity Well just outside of boats to catch the defuse."
+            },
+
+            {
+            heading: "Aggressive Mid Smoke/Catwalk Push",
+            stratdesc: "Place a nebula on mid to either push through or flank through smoke."
+            }
+
             ],
-            defense: [
-              "Watch for flanks from B.",
-              "Use smokes to block vision."
+            defense: 
+            [
+            {
+            heading: "B Site Post Plant Gravity Well",
+            stratdesc: "Place a Gravity Well just outside of boats to catch the defuse."
+            },
+
+            {
+            heading: "Aggressive Mid Smoke/Catwalk Push",
+            stratdesc: "Place a nebula on mid to either push through or flank through smoke."
+            }
             ],
         },
         "bind": {
-            offense: [
-              "Hold the angle at A site.",
-              "Use utility to control mid.",
+            offense:
+            [
+            {
+            heading: "B Site Post Plant Gravity Well",
+            stratdesc: "Place a Gravity Well just outside of boats to catch the defuse."
+            },
+
+            {
+            heading: "Aggressive Mid Smoke/Catwalk Push",
+            stratdesc: "Place a nebula on mid to either push through or flank through smoke."
+            }
+
             ],
-            defense: [
-              "Watch for flanks from B.",
-              "Use smokes to block vision."
+            defense: 
+            [
+            {
+            heading: "B Site Post Plant Gravity Well",
+            stratdesc: "Place a Gravity Well just outside of boats to catch the defuse."
+            },
+
+            {
+            heading: "Aggressive Mid Smoke/Catwalk Push",
+            stratdesc: "Place a nebula on mid to either push through or flank through smoke."
+            }
             ],
         },
         "split": {
-            offense: [
-              "Hold the angle at A site.",
-              "Use utility to control mid.",
+            offense:
+            [
+            {
+            heading: "B Site Post Plant Gravity Well",
+            stratdesc: "Place a Gravity Well just outside of boats to catch the defuse."
+            },
+
+            {
+            heading: "Aggressive Mid Smoke/Catwalk Push",
+            stratdesc: "Place a nebula on mid to either push through or flank through smoke."
+            }
+
             ],
-            defense: [
-              "Watch for flanks from B.",
-              "Use smokes to block vision."
+            defense: 
+            [
+            {
+            heading: "B Site Post Plant Gravity Well",
+            stratdesc: "Place a Gravity Well just outside of boats to catch the defuse."
+            },
+
+            {
+            heading: "Aggressive Mid Smoke/Catwalk Push",
+            stratdesc: "Place a nebula on mid to either push through or flank through smoke."
+            }
             ],
         },
         "abyss": {
-            offense: [
-              "Hold the angle at A site.",
-              "Use utility to control mid.",
+            offense:
+            [
+            {
+            heading: "B Site Post Plant Gravity Well",
+            stratdesc: "Place a Gravity Well just outside of boats to catch the defuse."
+            },
+
+            {
+            heading: "Aggressive Mid Smoke/Catwalk Push",
+            stratdesc: "Place a nebula on mid to either push through or flank through smoke."
+            }
+
             ],
-            defense: [
-              "Watch for flanks from B.",
-              "Use smokes to block vision."
+            defense: 
+            [
+            {
+            heading: "B Site Post Plant Gravity Well",
+            stratdesc: "Place a Gravity Well just outside of boats to catch the defuse."
+            },
+
+            {
+            heading: "Aggressive Mid Smoke/Catwalk Push",
+            stratdesc: "Place a nebula on mid to either push through or flank through smoke."
+            }
             ],
         },
         "lotus": {
-            offense: [
-              "Hold the angle at A site.",
-              "Use utility to control mid.",
+            offense:
+            [
+            {
+            heading: "B Site Post Plant Gravity Well",
+            stratdesc: "Place a Gravity Well just outside of boats to catch the defuse."
+            },
+
+            {
+            heading: "Aggressive Mid Smoke/Catwalk Push",
+            stratdesc: "Place a nebula on mid to either push through or flank through smoke."
+            }
+
             ],
-            defense: [
-              "Watch for flanks from B.",
-              "Use smokes to block vision."
+            defense: 
+            [
+            {
+            heading: "B Site Post Plant Gravity Well",
+            stratdesc: "Place a Gravity Well just outside of boats to catch the defuse."
+            },
+
+            {
+            heading: "Aggressive Mid Smoke/Catwalk Push",
+            stratdesc: "Place a nebula on mid to either push through or flank through smoke."
+            }
             ],
         },
         "pearl": {
-            offense: [
-              "Hold the angle at A site.",
-              "Use utility to control mid.",
+            offense:
+            [
+            {
+            heading: "B Site Post Plant Gravity Well",
+            stratdesc: "Place a Gravity Well just outside of boats to catch the defuse."
+            },
+
+            {
+            heading: "Aggressive Mid Smoke/Catwalk Push",
+            stratdesc: "Place a nebula on mid to either push through or flank through smoke."
+            }
+
             ],
-            defense: [
-              "Watch for flanks from B.",
-              "Use smokes to block vision."
+            defense: 
+            [
+            {
+            heading: "B Site Post Plant Gravity Well",
+            stratdesc: "Place a Gravity Well just outside of boats to catch the defuse."
+            },
+
+            {
+            heading: "Aggressive Mid Smoke/Catwalk Push",
+            stratdesc: "Place a nebula on mid to either push through or flank through smoke."
+            }
             ],
         },
         "icebox": {
-            offense: [
-              "Hold the angle at A site.",
-              "Use utility to control mid.",
+            offense:
+            [
+            {
+            heading: "B Site Post Plant Gravity Well",
+            stratdesc: "Place a Gravity Well just outside of boats to catch the defuse."
+            },
+
+            {
+            heading: "Aggressive Mid Smoke/Catwalk Push",
+            stratdesc: "Place a nebula on mid to either push through or flank through smoke."
+            }
+
             ],
-            defense: [
-              "Watch for flanks from B.",
-              "Use smokes to block vision."
+            defense: 
+            [
+            {
+            heading: "B Site Post Plant Gravity Well",
+            stratdesc: "Place a Gravity Well just outside of boats to catch the defuse."
+            },
+
+            {
+            heading: "Aggressive Mid Smoke/Catwalk Push",
+            stratdesc: "Place a nebula on mid to either push through or flank through smoke."
+            }
             ],
         },
         "haven": {
-            offense: [
-              "Hold the angle at A site.",
-              "Use utility to control mid.",
+            offense:
+            [
+            {
+            heading: "B Site Post Plant Gravity Well",
+            stratdesc: "Place a Gravity Well just outside of boats to catch the defuse."
+            },
+
+            {
+            heading: "Aggressive Mid Smoke/Catwalk Push",
+            stratdesc: "Place a nebula on mid to either push through or flank through smoke."
+            }
+
             ],
-            defense: [
-              "Watch for flanks from B.",
-              "Use smokes to block vision."
+            defense: 
+            [
+            {
+            heading: "B Site Post Plant Gravity Well",
+            stratdesc: "Place a Gravity Well just outside of boats to catch the defuse."
+            },
+
+            {
+            heading: "Aggressive Mid Smoke/Catwalk Push",
+            stratdesc: "Place a nebula on mid to either push through or flank through smoke."
+            }
             ],
         },
     }

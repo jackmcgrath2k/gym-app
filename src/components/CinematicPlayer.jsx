@@ -60,9 +60,6 @@ const imageVariants = {
           <h4 className="font-light text-sm text-center my-5 text-white">AGENTS</h4>
           </Link>
           
-          <Link to="/maps">
-          <h4 className="font-light text-sm text-center my-5 text-white">MAPS</h4>
-          </Link>
 
           <Link to="/">
           <h4 className="font-bold text-sm text-center my-5 text-red-700">VALO<span className="text-white">STRAT</span></h4>
@@ -72,9 +69,7 @@ const imageVariants = {
           <h4 className="font-light text-sm text-center my-5 text-white">CINEMATICS</h4>
           </Link>
 
-          <Link to="/">
-          <h4 className="font-light text-sm text-center my-5 text-white">SOMETHING</h4>
-          </Link>
+          
           </div>
         </div>
       </div>

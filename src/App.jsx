@@ -24,6 +24,8 @@ function App() {
         <Route path="/agents" element={<PlayableAgents />} />
         <Route path="/cinematics" element={<CinematicPlayer />} />
         <Route path="/select/:title/:a_name" element={<Strategy />} />
+        <Route path="/select/:title/:a_name/offense" element={<Strategy />} />
+        <Route path="/select/:title/:a_name/defense" element={<Strategy />} />
 
         
         
