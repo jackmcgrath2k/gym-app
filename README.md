@@ -1,8 +1,6 @@
-# React + Vite
+#VALOSTRAT
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The ultimate Valorant strategy web app for both veterans and beginners!
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This app was made with the use of REACT & Tailwind CSS.
+Featuring all 10 maps, 25 characters and 5 strategies each, for offense & defense.
