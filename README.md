@@ -1,4 +1,4 @@
-#VALOSTRAT
+VALOSTRAT
 
 The ultimate Valorant strategy web app for both veterans and beginners!
 
